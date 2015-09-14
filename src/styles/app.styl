@@ -1,0 +1,54 @@
+@import "./shared/reset";
+@import 'nib'
+@import "./shared/global";
+@import "./shared/fonts";
+@import "./shared/mixins";
+@import "./shared/easings";
+@import "./shared/comp/logo";
+@import "./views/layout";
+@import "./views/welcome";
+@import "./views/work";
+@import "./views/about";
+
+html, body {
+  overflow:hidden;
+}
+
+.mobile
+  display none
+
+@media (max-width: 900px)
+
+  .layout
+    display none
+
+  .mobile
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    .about
+      transform translate3d(0,0,0)
+
+    .content
+      transform translateX(-50%) translateY(-50%)
+      max-width: 490px;
+      width 90%
+
+    .about h1
+      margin-bottom 35px;
+
+    .about p.description
+      margin-bottom 30px;
+
+    .about h1.PI
+      margin-bottom 30px;
+
+    .about .social
+      margin-bottom 30px;
+
+

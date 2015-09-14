@@ -1,0 +1,191 @@
+.fonts
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  position absolute
+  top -500px
+  left -500px
+  z-index 0
+
+  .font1
+    font-family: 'HelveticaNeueMedium';
+    opacity 0
+  .font2
+    font-family: 'HelveticaNeueBold';
+    opacity 0
+  .font3
+    font-family: 'CourierRegular';
+    opacity 0
+
+.arrow .icon
+  width: 0;
+  height: 0;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  transition transform 0.5s ease-out-expo, opacity 0.25s ease-out-expo;
+  position relative
+  left 15px
+  opacity 0
+
+.prev .icon
+  border-right: 4px solid white;
+  left 15px
+  transform translateX(30px)
+
+.next .icon
+  border-left: 4px solid white;
+  transform translateX(-30px)
+
+
+.arrow
+  position absolute
+  width 30px
+  height 16px
+  cursor pointer
+
+.arrow .mask
+  width 42px
+  height 1px
+  overflow hidden
+  position relative
+  top -4px
+  left 1px
+  pointer-events none
+
+.arrow .line
+  width 42px
+  height 1px
+  position absolute
+  background-color #fff
+
+.next .line
+  transform translateX(-42px)
+  transition transform 0.5s ease-out-expo
+
+.next .mask
+  transform translateX(-42px)
+  transition transform 0.5s ease-out-expo
+  left 15px
+
+.prev .line
+  // transform translateX(-42px)
+  transform translateX(42px)
+  transition transform 0.5s ease-out-expo
+  left 1px
+
+.prev .mask
+  transform translateX(0)
+  transition transform 0.5s ease-out-expo
+  left 16px
+
+.prev
+  left 0
+
+.next
+  left 50px
+
+.down
+  left 50%
+  bottom: 56px;
+  z-index 1000
+  width 16px
+  height 30px
+
+.next:hover
+  .icon
+    transform translateX(42px) !important;
+
+  .line, .mask
+    transform translateX(0) !important
+
+.prev:hover
+  .icon, .mask
+    transform translateX(-42px) !important;
+
+  .line
+    transform translateX(0) !important
+
+.slider-arrows
+  position absolute
+  bottom 90px
+  right 15px
+  width 120px
+  z-index 3
+
+.prev.tween
+  .icon
+    transform translateX(0px)
+    opacity 1
+  .mask
+    transform translateX(0px)
+  .line
+    transform translateX(0px)
+
+.prev.tween-out
+  .line
+    transform translateX(-42px)
+
+.next.tween
+  .icon
+    transform translateX(0px)
+    opacity 1
+  .mask
+    transform translateX(-42px)
+  .line
+    transform translateX(0px)
+
+.next.tween-out
+  .line
+    transform translateX(42px)
+
+.down .icon
+  border-top: 0
+  border-top: 4px solid white;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  opacity 0
+  left 0
+  transform translateY(-42px)
+
+.down .mask
+  width 1px
+  height 42px
+  overflow hidden
+  position relative
+  left: 4px;
+  top: -50px;
+  pointer-events none
+  transform translateY(0)
+
+.down .line
+  width 1px
+  height 42px
+  position absolute
+  background-color #fff
+  transform translateY(-42px)
+  transition transform 0.5s ease-out-expo
+
+.down.tween
+  .icon
+    transition transform 0.5s ease-out-expo
+    transform translateY(0px)
+    opacity 1
+  .line
+    transform translateY(0px)
+
+.down.tween-out
+  .line
+    transform translateY(42px)
+
+// .down:hover
+//   .icon, .mask
+//     transform translateY(42px) !important;
+//     opacity 1
+
+
+//   .line
+//     transform translateY(0) !important

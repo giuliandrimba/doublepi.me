@@ -1,0 +1,97 @@
+.about
+  position absolute
+  width 100%
+  height 100%
+  overflow hidden
+  transform translate3d(0,100%,0)
+  background-color #fff
+  cursor pointer
+
+  ::selection
+    background: #ccc;
+
+  canvas
+    position absolute
+    z-index 2
+    pointer-events none
+
+  h1
+    font-family: 'HelveticaNeueBold';
+    letter_spacing(300)
+    font_size(30px, 32)
+    margin-bottom 55px
+    text-transform uppercase
+
+  p
+    font-family: 'CourierRegular';
+    font_size(11px, 18)
+    letter_spacing(50)
+    text-transform uppercase;
+
+  p.description
+    margin-bottom 130px
+
+  p.contact
+    margin-bottom 28px
+
+  p.social
+    margin-bottom 130px
+
+  h1.PI
+    margin-bottom 130px
+
+  a
+    text-decoration none
+    color #002aff
+
+  a:hover
+    text-decoration line-through
+
+  .a
+    cursor pointer
+    .line
+      width 7px
+      height 1px
+      display inline-block
+      background-color #000
+      margin-right 7px
+      top: -2px;
+      position: relative;
+      transition transform 0.5s ease-out-expo
+
+    a
+      color #000
+      font-family: 'CourierRegular';
+      font_size(11px, 18)
+      letter_spacing(50)
+      text-transform uppercase;
+
+    a:hover
+      text-decoration none
+
+  .a:hover .line
+    transform translateX(3px)
+
+
+  &.intro
+    transition transform 1s ease-out-expo
+    transform translate3d(0,0,0)
+    z-index 3
+
+    .content
+      transition transform 1.5s ease-out-expo
+      transform: translateX(-50%) translateY(-47%);
+
+  &.outro
+    z-index 0
+    transition transform 1s ease-out-expo, opacity 1s ease-out-expo
+    transform translate3d(0,50%,0)
+
+  .content
+    position absolute
+    z-index 1
+    width 490px
+    left 50%
+    top 50%
+    transform: translateX(-50%) translateY(0%);
+    text-align center

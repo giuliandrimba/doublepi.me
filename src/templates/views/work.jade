@@ -1,0 +1,41 @@
+section.work
+  .slider-arrows
+    .next.arrow
+      .icon
+      .mask
+        .line
+    .prev.arrow
+      .icon
+      .mask
+        .line
+
+  .down.arrow
+    .icon
+    .mask
+      .line
+
+  .background
+    if data.background.type == "image"
+      img(src="#{data.background.url}")
+    else if data.background.type == "color"
+      .color(style="background-color:#{data.background.color}")
+    else if data.background.type == "video"
+      video(src="#{data.background.url}", id="#{data.name}", loop)
+
+  .comps
+    .comps-container
+      if data.data[0].type != "video"
+        .frame.comp
+          .intro
+          .border
+      each comp, i in data.data
+        if comp.type == "video"
+          .frame.comp.player
+            .intro
+            .border
+            .video(data-src="#{comp.content}")
+              video(src="#{comp.content}")
+        if comp.type == "text"
+          .text.comp
+            .intro
+            p !{comp.content}

@@ -1,0 +1,7 @@
+letter_spacing($spacing)
+  letter-spacing: unit($spacing/1000, 'em');
+
+font_size($size, $leading)
+  font-size $size
+  if $leading
+    line-height: unit(100 * ($leading / $size), "%")

@@ -1,0 +1,100 @@
+
+.work
+
+  @import "../shared/comp/slide/text";
+  @import "../shared/comp/slide";
+
+  position absolute
+  width 100%
+  height 100%
+  overflow hidden
+
+  p a
+    position relative
+    text-decoration none
+    color #fff
+
+  .text p .link
+    display block
+
+  .link
+    background url('/images/over-border.svg') repeat top left
+    position absolute
+    display none
+
+  .link.black
+    background url('/images/border-black.svg') repeat top left
+
+  .link-border-top
+    width 100%
+    height 1px
+    top: 18%;
+
+  .link-border-bottom
+    width 100%
+    height 1px
+    bottom: 16%;
+
+  .link-border-left
+    width: 1px;
+    height: 63%;
+    left: 1px;
+    top: 20%;
+
+  .link-border-right
+    width: 1px;
+    height: 64%;
+    right: 0px;
+    top: 20%;
+
+  .background
+    position absolute
+    top 0
+    left 0
+    z-index 0
+    background-color #000
+    transform translate3d(0,100%,0)
+
+  .background img
+    width 100%
+    transform translate3d(0,100%,0)
+
+  .background video
+    width 100%
+    transform translate3d(0,100%,0)
+
+  .background div
+    width 100% !important
+    height 100% !important
+
+  .background .color
+    width 100%
+    height 100%
+    background-color #000
+
+.work.intro
+  z-index 3
+  .background
+    transition transform 0.7s ease-out-expo
+    transform translate3d(0,0,0) !important
+
+    img
+      transition transform 0.7s ease-out-expo 0.2s
+      transform translate3d(0,0,0) !important
+
+    video
+      transition transform 0.7s ease-out-expo 0.2s
+      transform translate3d(0,0,0) scale(1) !important
+
+.work.outro-up
+  z-index 0
+  transition transform 1s ease-out-expo, opacity 1s ease-out-expo
+  transform translate3d(0,-50%,0)
+
+.work.outro-down
+  z-index 0
+  transition transform 1s ease-out-expo, opacity 1s ease-out-expo
+  transform translate3d(0,50%,0)
+
+
+

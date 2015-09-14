@@ -1,0 +1,218 @@
+[
+  {
+    "name":"welcome",
+    "background":
+    {
+      "type":"color",
+      "color":"#000000"
+    },
+    "data":[
+      {
+        "url":"http://lab.doublepi.me/hole"
+      },
+      {
+        "url":"http://lab.doublepi.me/magnets"
+      },
+      {
+        "url":"http://lab.doublepi.me/fractal"
+      },
+      {
+        "url":"http://lab.doublepi.me/automata"
+      },
+      {
+        "url":"http://lab.doublepi.me/agents"
+      },
+      {
+        "url":"http://lab.doublepi.me/strings"
+      },
+      {
+        "url":"http://lab.doublepi.me/attract"
+      },
+      {
+        "url":"http://lab.doublepi.me/repulse"
+      }
+    ]
+  },
+  {
+    "name":"menonitas",
+    "background":
+    {
+      "type":"image",
+      "url":"/images/menonitas/bg.jpg",
+      "color":"#8e8485"
+    },
+    "data":[
+      {
+        "type":"text",
+        "content":"<a href='http://fronteirasdonovomundo.com' target='_blank'>The Menonitas</a><br>society through <br>the eyes<br>of Marcos Muniz"
+      },
+      {
+        "type":"text",
+        "content":"Developed using <br>gulp, coffeescript, <br>stylus, jade, css3<br> gsap, preloadjs, ways"
+      }
+    ]
+  },
+  {
+    "name":"ds4",
+    "background":
+    {
+      "type":"video",
+      "url":"/videos/ds4.mp4"
+    },
+    "data":[
+      {
+        "type":"text",
+        "content":"<a href='http://data.asomasede.com/citroen/ds4/' target='_blank'>digital experience</a><br> <a href='http://data.asomasede.com/citroen/ds4/' target='_blank'>for Citroën DS4,</a><br><a href='http://data.asomasede.com/citroen/ds4/' target='_blank'>the next </a><br><a href='http://data.asomasede.com/citroen/ds4/' target='_blank'>generation coupe</a><br>"
+      },
+      {
+        "type":"text",
+        "content":"interactive development<br>pushing the boundaries<br> of web technologies"
+      },
+      {
+        "type":"text",
+        "content":"developed using <br>backbone, requirejs<br> coffeescript, css<br> handlebars and navi"
+      }
+    ]
+  },
+  {
+    "name":"c4lounge",
+    "background":
+    {
+      "type":"image",
+      "url":"/images/c4lounge/bg.jpg"
+    },
+    "data":[
+      {
+        "type":"text",
+        "content":"<a href='http://c4lounge.doublepi.me' target='_blank'>citroën hotsite</a><br><a href='http://c4lounge.doublepi.me' target='_blank'>showcasing </a><br><a href='http://c4lounge.doublepi.me' target='_blank'>the features of its </a><br><a href='http://c4lounge.doublepi.me' target='_blank'>new car, c4lounge</a><br>"
+      },
+      {
+        "type":"text",
+        "content":"development on top<br>of Theoricus, polvo<br>stylus, jade, coffeescript<br> and css3 animations"
+      }
+    ]
+  },
+  {
+    "name":"caoa",
+    "background":
+    {
+      "type":"image",
+      "url":"/images/fabricacaoa/bg.jpg",
+      "color":"#13161f"
+    },
+    "data":[
+      {
+        "type":"text",
+        "content":"streetview goes inside<br>hyundai caoa's factory<br>in this interactive<br> <a href='http://fabricahyundaicaoa.com.br' target='_blank'>web experience</a>"
+      },
+      {
+        "type":"text",
+        "content":"using modern apis such as:<br>google streetview<br>web audio, page visibility<br> and css3 animations"
+      }
+    ]
+  },
+  {
+    "name":"citroen",
+    "background":
+    {
+      "type":"color",
+      "url":"#FFFFFF",
+      "color":"#FFFFFF"
+    },
+    "data":[
+      {
+        "type":"video",
+        "content":"/videos/citroen-01.mp4"
+      },
+      {
+        "type":"video",
+        "content":"/videos/citroen-02.mp4"
+      },
+      {
+        "type":"text",
+        "content":"Citroën institutional website remade<br> adapted to suit<br> the internet of things"
+      },
+      {
+        "type":"text",
+        "content":"responsive development<br>using a component <br>based architecture<br>"
+      },
+      {
+        "type":"text",
+        "content":"main technologies include:<br>rails, susy, sass, pjax<br>coffeescript, TweenMax<br>"
+      }
+    ]
+  },
+  {
+    "name":"studiosc",
+    "background":
+    {
+      "type":"image",
+      "url":"/images/studiosc/bg.jpg"
+    },
+    "data":[
+      {
+        "type":"text",
+        "content":"<a href='http://www.studiosc.com.br/' target='_blank'>get a taste</a><br>of the artistic collection<br>of food photography<br> by studiosc"
+      },
+      {
+        "type":"text",
+        "content":"technologies used include:<br>backbone, html<br>javascript, css, TweenMax<br>and zoom.it"
+      }
+    ]
+  },
+  {
+    "name":"studiofabrica",
+    "background":
+    {
+      "type":"color",
+      "url":"#FFFFFF",
+      "color":"#FFFFFF"
+    },
+    "data":[
+      {
+        "type":"video",
+        "content":"/videos/studiofabrica.mp4"
+      },
+      {
+        "type":"text",
+        "content":"<a href='http://studiofabrica105.com.br' target='_blank'>A design studio</a><br>delivering innovative<br> and functional <br>projects"
+      },
+      {
+        "type":"text",
+        "content":"multilanguage website<br>using navi, requirejs<br>grunt,backbone<br>TweenMax and Canvas"
+      }
+    ]
+  },
+  {
+    "name":"mktmix",
+    "background":
+    {
+      "type":"image",
+      "url":"/images/mktmix/bg.jpg"
+    },
+    "data":[
+      {
+        "type":"text",
+        "content":"creating<br>innovative<br><a href='http://www.mktmix.com.br/' target='_blank'>website</a><br>for mktmix"
+      },
+      {
+        "type":"text",
+        "content":"developed a custom <br>MVC framework<br> and navigation library"
+      }
+    ]
+  },
+  {
+    "name":"about",
+    "background":
+    {
+      "type":"color",
+      "color":"#FFFFFF"
+    },
+    "data":[
+      {
+        "type":"text",
+        "content":"My name is Giulian Drimba and I’m brazillian interactive developer living in São Paulo - BR. I am always researching and trying new technologies to expand the possibilities of my work. My interests include UI motion design, generative art, natural systems, design, typography, functional programming, 3d and math"
+      }
+    ]
+  }
+]

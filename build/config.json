@@ -1,0 +1,41 @@
+{
+  "output":
+  {
+    "path": "../public"
+  },
+  "server":
+  {
+    "port": 8000
+  },
+  "browserify":
+  {
+    "path":"../src/",
+    "boot":"../src/scripts/app.js"
+  },
+  "jade":
+  {
+    "src":"../src/templates/index.jade",
+    "dest":"../public"
+  },
+  "styles":
+  {
+    "path":"../src/styles",
+    "boot":"../src/styles/app.styl"
+  },
+  "sprites":
+  {
+    "src":"../src/images/icons/*.png",
+    "img_name":"images/icons.png",
+    "img_dest":"../public",
+    "css_name":"sprite.styl",
+    "css_dest":"../src/styles/shared/"
+  },
+  "images":
+  {
+    "src":"../src/images/**/*",
+    "img_name":"images/icons.png",
+    "img_dest":"../public",
+    "css_name":"sprite.styl",
+    "css_dest":"../src/styles/shared/"
+  }
+}
